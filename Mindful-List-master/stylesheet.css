@@ -1,0 +1,42 @@
+body, html { 
+    overflow-x: hidden; 
+    overflow-y: hidden;
+}
+#sf {
+   content: url('sfblur.png');
+   display: block;
+   height: 1080px;
+   width: 640px;
+}
+
+#sf:hover {
+   content: url('sfnoblur.png');
+}
+#nyc {
+   content: url('nycblur.png');
+   display: block;
+   height: 1080px;
+   width: 640px;
+}
+
+#nyc:hover {
+	content: url('nycnoblur.png');
+}
+#sf:hover {
+   content: url('sfnoblur.png');
+}
+#philly{
+   content: url('phillyblur.png');
+   display: block;
+   height: 1080px;
+   width: 640px;
+}
+
+#philly:hover {
+	content: url('phillynoblur.png');
+}
+
+/*img{
+	
+}
+*/
